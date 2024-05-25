@@ -82,3 +82,6 @@ li{
   text-decoration: none;
   color: black;
 }
+.col{
+  display: flex;
+}

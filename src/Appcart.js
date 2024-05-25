@@ -15,7 +15,7 @@ function App() {
           <Card
           imgSrc="https://as1.ftcdn.net/v2/jpg/04/80/67/10/1000_F_480671088_7YtE45hl1QIxMYjZhWpxnCScTpo64QcE.jpg"
             imgAlt="Card Image 2"
-        
+        buttonText="7.4/10"
             // buttonText="7.5/10"
             link="card2"
           />
@@ -48,11 +48,12 @@ function App() {
           />
           <h3>Thunivu</h3>
           <Card
-          imgSrc={}
+          imgSrc="https://moviegalleri.net/wp-content/gallery/dada/Dada-Movie-Images-09cb119.jpg"
             imgAlt="Card Image 3"
-            title="Thunivu"
+            
             link="card2"
           />
+          <h3>Dada</h3>
         </div>
         <div className="col">
           <Card
@@ -67,22 +68,20 @@ function App() {
           <Card
             imgSrc="https://img.posterstore.com/zoom/wb0202-8theflash-movie50x70.jpg"
             imgAlt="Card Image 3"
-            title="Flash"
+            
             buttonText="8.7/10"
             link="card2"
           />
           <h3>Flash</h3>
           <Card
+          imgSrc="https://images.filmibeat.com/webp/img/popcorn/profile_photos/kavin-20230803143734-37483.jpg"
             imgAlt="Card Image 3"
-            title="Thunivu"
+    
             buttonText="8.5/10"
             link="card2"
           />
-          <Card
-            imgAlt="Card Image 3"
-            title="veeram"
-            link="card2"
-          />
+          <h3>Star</h3>
+         
         </div>
       </div>
     );
